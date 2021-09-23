@@ -1,7 +1,7 @@
 # box-office-MVVM
 box office app using MVVM pattern.
 
------`set profile, movies` ------------------`detail` ------------------------`like`  --------------------------
+-----`set profile, movies` ------------------`detail` ------------------------`like`  --------------------------          
 <img src="https://user-images.githubusercontent.com/71416677/134463518-a43464f5-07c8-4859-b588-d4337deeeb19.gif" width="250" height="400"/>
 <img src="https://user-images.githubusercontent.com/71416677/134463546-014f8fe1-a349-47c4-9261-448d6bb8d2a3.gif" width="250" height="400"/>
 <img src="https://user-images.githubusercontent.com/71416677/134463663-38f6d88d-5292-48e0-83ea-323b61cc932b.gif" width="250" height="400"/>     
