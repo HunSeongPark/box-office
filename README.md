@@ -1,4 +1,4 @@
-# box-office-MVVM
+# box-office
 box office app using MVVM pattern.
 
 -----`set profile, movies` ------------------`detail` ------------------------`like`  --------------------------          
