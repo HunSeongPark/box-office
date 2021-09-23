@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="영화"
+        android:id="@+id/menu_movie"
+        android:icon="@drawable/ic_baseline_movie_filter_24"
+        />
+
+    <item android:title="찜 목록"
+        android:id="@+id/menu_my"
+        android:icon="@drawable/ic_baseline_star_24"
+        />
+</menu>

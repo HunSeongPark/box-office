@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="프로필 이름을 입력해주세요!"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="30dp"
+        android:maxLength="10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/lengthTextView"
+        android:layout_height="wrap_content"
+        android:text="(0/10)"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="right"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

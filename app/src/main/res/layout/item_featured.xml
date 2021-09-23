@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="30dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:id="@+id/featuredMovieImageView"
+                android:layout_width="350dp"
+                android:layout_height="450dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="450dp"
+                android:background="@color/black"
+                android:alpha="0.5"
+                app:layout_constraintStart_toStartOf="@id/featuredMovieImageView"
+                app:layout_constraintTop_toTopOf="@id/featuredMovieImageView"
+                app:layout_constraintBottom_toBottomOf="@id/featuredMovieImageView"
+                app:layout_constraintEnd_toEndOf="@id/featuredMovieImageView"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="상훈과 민준의 모험"
+                app:layout_constraintBottom_toTopOf="@id/detailTextView"
+                app:layout_constraintStart_toStartOf="@id/featuredMovieImageView"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:id="@+id/titleTextView"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailTextView"
+                app:layout_constraintStart_toStartOf="@id/titleTextView"
+                app:layout_constraintBottom_toBottomOf="@id/featuredMovieImageView"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                tools:text="미국 ' 15세 이용가"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
