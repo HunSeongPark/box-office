@@ -18,8 +18,8 @@ With Shared Preference(Local Data), your profile name keep until delete the app.
 
 * `movies`  
 using Retrofit(Network Data). display Using Recycler View.      
-using mock data (![MockAPI](https://mockapi.io/))       
-movie poster designed by (![이상](https://github.com/2snng))      
+using mock data ([MockAPI](https://mockapi.io))       
+movie poster designed by ([이상](https://github.com/2snng))      
 
 * `detail`  
 for study fragment - Activity transition animation and putParcelable method.    
